@@ -1,13 +1,13 @@
 const Todo = (props) => {
   function deleteHandler() {
-    console.log("Clicked here!");
+    console.log('Clicked here!');
   }
 
   return (
-    <div className="card">
+    <div className='card'>
       <h2>{props.text}</h2>
-      <div className="actions">
-        <button className="btn" onClick={deleteHandler}>
+      <div className='actions'>
+        <button className='btn' onClick={deleteHandler}>
           Delete
         </button>
       </div>
